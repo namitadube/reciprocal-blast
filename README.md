@@ -3,21 +3,21 @@ Reciprocal-blast hits (also known as Bidirectional Best Hit),which entails ident
 
 1.  Download sequence from ncbi
 
-chmod 777 download_sequences.sh
+   chmod 777 download_sequences.sh
 
 2. Sequence extraction from the downloaded file
 
-chmod 777 sequence_extraction.sh
+   chmod 777 sequence_extraction.sh
 
-2.  Making database from sequences
+3.  Making database from sequences
 
-chmod 777 makeblast.sh
+   chmod 777 makeblast.sh
 
-3. Performing Blastn program 
+4. Performing Blastn program 
 
-chmod 777 blastn.sh
+   chmod 777 blastn.sh
 
-4. Best hits from the blast
+5. Best hits from the blast
 
-chmod 777 blast_result.sh
+   chmod 777 blast_result.sh
 
