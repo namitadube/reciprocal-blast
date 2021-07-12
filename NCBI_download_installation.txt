@@ -1,0 +1,21 @@
+                                            ##Download and installation of Ncbi-blast.2.2.30+ version
+
+Download ncbi-blast-2.2.30+ version from http
+
+1.	wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.30/
+2.	tar zxvpf ncbi-blast-2.2.30+-x64-linux.tar.gz
+
+Installation
+1.	installation of ncbi blast: 
+export PATH=$PATH: home/dube_02/ncbi-blast-2.10.1+/bin
+2.	To manage available BLAST databases, create a directory to store them:
+mkdir /home/dube_02/blasdb
+3.	use the approaches described above for PATH to set the BLASTDB value under bash:
+export BLASTDB=home/dube_02/blastdb
+
+
+
+Also, blast program can be used from the bin directory. Go to the folder of Ncbi-blast-2.2.30++ --> bin and from there you can access the blast program easily.
+
+
+
