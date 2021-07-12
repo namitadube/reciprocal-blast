@@ -8,7 +8,7 @@
 
 
 
- For reciprocal blast hit, interchange subject and query fasta files.
+ ### For reciprocal blast hit, interchange subject and query fasta files.
 ./blastn -subject /home/dube_02/Nostoc_carneum_100seq -query     
                 /home/dube_02/Nostoc_piscinale_CENA21.fna -evalue 1E-5 -out    
                  Nostoc_piscinale_query_carneum_db -outfmt “6 qseqid sseqid pident length mismatch   
