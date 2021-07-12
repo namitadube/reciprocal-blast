@@ -21,3 +21,4 @@ Reciprocal-blast hits (also known as Bidirectional Best Hit),which entails ident
 
     chmod 777 blast_result.sh
 
+Note: Directly go to /home_directory/ncbi-blast-2.2.30+/bin and run blast programs as mentioned above (for blastn program use ./blast ..command)
