@@ -1,7 +1,7 @@
 ###    Format blast results 
 
- sed -i 's/\tlcl//g'  carneum_db_piscinale_query
- sed -i 's/\tlcl//g'  carneum_query_piscinale_db
+ sed -i 's/lcl|//g'  carneum_db_piscinale_query
+ sed -i 's/lcl|//g'  carneum_query_piscinale_db
 
 ###    Compare two blast results to get reciprocal blast hits
 
