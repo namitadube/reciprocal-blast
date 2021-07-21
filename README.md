@@ -3,22 +3,24 @@ Reciprocal-blast hits (also known as Bidirectional Best Hit),which entails ident
 
 1.  Download sequence from ncbi
 
-    chmod 777 download_sequences.sh
+    download_sequences.sh
 
 2. Sequence extraction from the downloaded file
 
-    chmod 777 sequence_extraction.sh
+    sequence_extraction.sh
 
 3.  Making database from sequences
 
-    chmod 777 makeblast.sh
+    makeblast.sh
 
 4. Performing Blastn program 
 
-    chmod 777 blastn.sh
+    blastn.sh
 
 5. Best hits from the blast
 
-    chmod 777 blast_result.sh
+   blast_result.sh
+   
+   Use chmod 777 "xxx.sh" to run the script in command prompt.
 
 Note: Directly go to /home_directory/ncbi-blast-2.2.30+/bin and run blast programs as mentioned above (for blastn program use ./blast ..command)
